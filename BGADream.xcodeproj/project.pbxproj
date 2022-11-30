@@ -11,6 +11,8 @@
 		3A0213C229378BE200304BE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0213C129378BE200304BE0 /* ContentView.swift */; };
 		3A0213C429378BE300304BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0213C329378BE300304BE0 /* Assets.xcassets */; };
 		3A0213C729378BE300304BE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0213C629378BE300304BE0 /* Preview Assets.xcassets */; };
+		3A0213CE29378FD400304BE0 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0213CD29378FD400304BE0 /* Game.swift */; };
+		3A0213D02937915000304BE0 /* GameFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0213CF2937915000304BE0 /* GameFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3A0213C129378BE200304BE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A0213C329378BE300304BE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A0213C629378BE300304BE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A0213CD29378FD400304BE0 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		3A0213CF2937915000304BE0 /* GameFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				3A0213C129378BE200304BE0 /* ContentView.swift */,
 				3A0213C329378BE300304BE0 /* Assets.xcassets */,
 				3A0213C529378BE300304BE0 /* Preview Content */,
+				3A0213CD29378FD400304BE0 /* Game.swift */,
+				3A0213CF2937915000304BE0 /* GameFetcher.swift */,
 			);
 			path = BGADream;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A0213C229378BE200304BE0 /* ContentView.swift in Sources */,
+				3A0213CE29378FD400304BE0 /* Game.swift in Sources */,
 				3A0213C029378BE200304BE0 /* BGADreamApp.swift in Sources */,
+				3A0213D02937915000304BE0 /* GameFetcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
