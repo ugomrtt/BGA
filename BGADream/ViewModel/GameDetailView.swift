@@ -17,7 +17,7 @@ struct GameDetailView: View {
                 GameImage(gameURL: url).frame(width: 300)
                 
             }
-            Text(game.name)
+            Text("Description")
                 .font(.title)
                 .fontWeight(.bold)
             Text(game.descriptionPreview)
