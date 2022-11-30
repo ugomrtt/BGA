@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var viewModel = GamesViewModel()
     var body: some View {
-        Text("Hello, there!")
-            .padding()
+        
+        TabView{
+            TopGamesView(viewModel: viewModel)
+                .tabItem{
+                    Label("Top Games", systemImage: "dice")}
+            
+        }
     }
 }
 

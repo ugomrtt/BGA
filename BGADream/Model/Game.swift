@@ -8,12 +8,14 @@
 import Foundation
 
 struct Game {
-    let id: Int
+    let id: String
     let name: String
-    let imageURL: String
-    let thumbUrl: String
-    let description: String
+    let imageURL: URL?
+    let thumbUrl: URL?
+    let descriptionPreview: String
 }
+
+extension Game: Identifiable{}
 
 extension Game: Codable{
     private enum CodingKeys: String, CodingKey {
@@ -21,10 +23,10 @@ extension Game: Codable{
         case name
         case imageURL = "image_url"
         case thumbUrl = "thumb_url"
-        case description
+        case descriptionPreview = "description_preview"
     }
 }
 
 struct GamesResponse: Codable{
-    let results: [Game]
+    let games: [Game]
 }
